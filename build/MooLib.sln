@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MooLib", "projects\MooLib.vcxproj", "{F9ACF2BA-40CD-44FB-806C-D9822309AC76}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MooLibUT", "projects\MooLibUT.vcxproj", "{09C66688-7AD2-4F45-957D-5A933E64FC13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Shipping|Win32 = Shipping|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9ACF2BA-40CD-44FB-806C-D9822309AC76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9ACF2BA-40CD-44FB-806C-D9822309AC76}.Debug|Win32.Build.0 = Debug|Win32
+		{F9ACF2BA-40CD-44FB-806C-D9822309AC76}.Release|Win32.ActiveCfg = Release|Win32
+		{F9ACF2BA-40CD-44FB-806C-D9822309AC76}.Release|Win32.Build.0 = Release|Win32
+		{F9ACF2BA-40CD-44FB-806C-D9822309AC76}.Shipping|Win32.ActiveCfg = Shipping|Win32
+		{F9ACF2BA-40CD-44FB-806C-D9822309AC76}.Shipping|Win32.Build.0 = Shipping|Win32
+		{09C66688-7AD2-4F45-957D-5A933E64FC13}.Debug|Win32.ActiveCfg = Debug|Win32
+		{09C66688-7AD2-4F45-957D-5A933E64FC13}.Debug|Win32.Build.0 = Debug|Win32
+		{09C66688-7AD2-4F45-957D-5A933E64FC13}.Release|Win32.ActiveCfg = Release|Win32
+		{09C66688-7AD2-4F45-957D-5A933E64FC13}.Release|Win32.Build.0 = Release|Win32
+		{09C66688-7AD2-4F45-957D-5A933E64FC13}.Shipping|Win32.ActiveCfg = Shipping|Win32
+		{09C66688-7AD2-4F45-957D-5A933E64FC13}.Shipping|Win32.Build.0 = Shipping|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

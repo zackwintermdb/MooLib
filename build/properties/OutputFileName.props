@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="UserMacros">
+    <!--debug suffix-->
+    <DebugSuffix Condition="'$(Configuration)'=='Debug'">D</DebugSuffix>
+    <DebugSuffix Condition="'$(Configuration)'=='Release'">R</DebugSuffix>
+    <DebugSuffix Condition="'$(Configuration)'=='Shipping'"></DebugSuffix>
+  </PropertyGroup>
+  <!--target-->
+  <PropertyGroup>
+    <TargetName>$(ProjectName)$(ShortPlatform)$(DebugSuffix)</TargetName>
+  </PropertyGroup>
+</Project>

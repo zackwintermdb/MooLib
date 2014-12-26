@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <MooLibSourcePath>$(SolutionDir)..\src\</MooLibSourcePath>
+    <MooLibTmpPath>$(SolutionDir)..\tmp\</MooLibTmpPath>
+    <MooLibBinPath>$(SolutionDir)..\bin\</MooLibBinPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <_PropertySheetDisplayName>Paths</_PropertySheetDisplayName>
+    <OutDir>$(MooLibBinPath)</OutDir>
+    <IntDir>$(MooLibTmpPath)$(TargetName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MooLibSourcePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="MooLibSourcePath">
+      <Value>$(MooLibSourcePath)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="MooLibTmpPath">
+      <Value>$(MooLibTmpPath)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="MooLibBinPath">
+      <Value>$(MooLibBinPath)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
